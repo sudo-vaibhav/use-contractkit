@@ -313,10 +313,10 @@ export default function Home() {
                   </div>
                   <div className="space-y-2">
                     <div>
-                      CELO: {Web3.utils.fromWei(summary.celo.toString())}
+                      CELO: {Web3.utils.fromWei(summary.celo.toFixed())}
                     </div>
                     <div>
-                      cUSD: {Web3.utils.fromWei(summary.cusd.toString())}
+                      cUSD: {Web3.utils.fromWei(summary.cusd.toFixed())}
                     </div>
                     <div>cEUR: 0.00</div>
                   </div>
